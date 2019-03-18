@@ -1,0 +1,114 @@
+body{
+	color: #000;
+	font-family: arial, sans-serif;
+	background: #fff;
+	line-height: 1.3;
+	font-size: 12px;
+	min-width: 760px;
+	margin: 0;
+}
+.container{
+	width: 760px;
+	margin: 0 auto;
+}
+table{
+	border-spacing: 0;
+	width: 760px;
+	height: 478px;
+}
+th{
+	text-align: left;
+	background: #fff;
+}
+.h1{
+	font-size: 20px;
+	font-weight: normal;
+	color: #003663;
+	padding-bottom: 21px;
+	margin-bottom: 10px;
+}
+.h3{
+	font-size: 13px;
+	font-weight: normal;
+	color: #7f7f7f;
+	padding-bottom: 12px;
+}
+tbody tr:nth-child(odd){
+	background: #f4fbfd;
+	border: 1px solid #d7e7ec;
+}
+tr{
+	line-height: 2.5;
+	height: 43px;
+}
+td:first-child{
+	font-size: 14px;
+	padding-left: 22px;
+	width: 185px;
+}
+td:nth-child(2){
+	width: 200px;
+	padding: 0 21px 0 72px;
+}
+td:last-child{
+	width: 137px;
+}
+td:nth-child(3)::before{
+	content: "";
+	padding-left: 80px;
+}
+.rowtd1::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat, 
+	url(../images/ic-star.png) 34px 0 no-repeat;
+	}
+	.rowtd2::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat, 
+	url(../images/ic-star.png) 34px 0 no-repeat,
+	url(../images/ic-star.png) 51px 0 no-repeat;
+	}
+	.rowtd3::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat, 
+	url(../images/ic-star.png) 34px 0 no-repeat;
+	}
+	.rowtd4::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat, 
+	url(../images/ic-star.png) 34px 0 no-repeat,
+	url(../images/ic-star.png) 51px 0 no-repeat;
+	}
+	.rowtd5::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat;
+	}
+	.rowtd6::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat, 
+	url(../images/ic-star.png) 34px 0 no-repeat,
+	url(../images/ic-star.png) 51px 0 no-repeat;
+	}
+	.rowtd7::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat, 
+	url(../images/ic-star.png) 34px 0 no-repeat,
+	url(../images/ic-star.png) 51px 0 no-repeat;
+	}
+	.rowtd8::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat, 
+	url(../images/ic-star.png) 34px 0 no-repeat,
+	url(../images/ic-star.png) 51px 0 no-repeat;
+	}
+	.rowtd9::before{
+	background: url(../images/ic-star.png) 0 0 no-repeat, 
+	url(../images/ic-star.png) 17px 0 no-repeat, 
+	url(../images/ic-star.png) 34px 0 no-repeat,
+	url(../images/ic-star.png) 51px 0 no-repeat;
+	}
+	a{
+		text-decoration: none;
+		color: #a5d1e5;
+	}
+

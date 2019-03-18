@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	background: #f9f4ea;
+	line-height: 2.3;
+	font-size: 12px;
+	min-width: 635px;
+	margin: 0;
+}
+.container{
+	width: 635px;
+	margin: 0 auto;
+}
+table{
+	margin-top: 10px;
+	font-weight: normal;
+	table-layout: fixed;
+	text-align: center;
+}
+.plus{
+	font-weight: bold;
+	font-size: 18px;
+	color: #4d7842;
+}
+th {
+	border-right: 1px solid #bdab81;
+	font-weight: normal;
+	border-right-style: 
+	font-size: 11px;
+	word-wrap: break-word;
+	border-bottom: 2px solid #d8c59b;
+	background: #f9f4ea;
+	line-height: 1;
+}
+tr:hover{
+	box-shadow: 2px 2px 15px 0px rgba(255, 255, 255, 1);
+}
+
+}
+td:first-child{
+	width: 41px;
+}
+tr:nth-child(odd){
+background-color: #f1e8d0;
+}
+td:nth-child(2){
+	width: 30px;
+}
+td:nth-child(3){
+width: 49px;
+}
+td:nth-child(4){
+	width: 97px;
+}
+td:nth-child(5){
+	width: 117px;
+}
+td:nth-child(6){
+	width: 45px;
+}
+td:nth-child(7){
+	width: 90px;
+}
+td:nth-child(8){
+	width: 87px;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+a:last-child:hover{
+	color: #4d7842;
+}
+tr:hover {
+    color: #4d7842;
